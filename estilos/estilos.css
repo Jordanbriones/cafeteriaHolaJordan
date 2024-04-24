@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    border: 1px solid rgb(204, 0, 255);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+/*--Estilos Header--*/
+header {
+    width: 100%;
+    border: 1px solid blue;
+    background: url('https://static.wikia.nocookie.net/featteca/images/9/98/Shrek.png/revision/latest/scale-to-width-down/600?cb=20220713043820&path-prefix=es') #ffffff25;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+
+}
+header .texto{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    margin: -52px;
+
+}
+header .texto .nombre span{
+
+font-weight: 300;
+font-family: cursive;
+
+
+}
+header .texto h3{
+    font-family: monospace;
+}
+
+header .text .nombre{
+    font-size: 50px;
+font-weight: 600;
+}
+
+
+header .menu {
+    width: 100%;
+    text-align:justify ;
+    color: aliceblue;
+
+}
+
+header .menu a {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+}
+header .text h3
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header .menu a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+main .acerca-de .foto{
+width: 80%;
+position: absolute;
+left: 0;
+top: -50px;
+z-index:0 ;
+box-shadow: red 0px 0px 15px rgb(255, 255, 255)
+
+}
+main.acerca-de fotoimg{
+
+vertical-align: text-top;
+width:100% ;
+}
+
+main.acerca-de foto img{
+    vertical-align: text-top;
+    width:100% ;
+box-shadow: 0px 0px 15px rebeccapurple;
+    }
+    main .acerca-de article h3{
+        font-size: 50px;
+        font-weight: 300;
+        margin-bottom: 40px;
+        
+    }
